@@ -1,0 +1,1 @@
+This repository demonstrates a common error when working with the `querySelectorAll` method in JavaScript within an HTML context.  The bug arises from attempting to directly modify the `innerHTML` property of a NodeList returned by `querySelectorAll`.  The solution shows the correct approach to access and modify the content of the selected element.
