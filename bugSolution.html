@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This is some text.
+  </div>
+
+  <script>
+    // Correct way to access the div and modify its innerHTML
+    let divs = document.querySelectorAll('#myDiv'); 
+    divs[0].innerHTML = "<b>This text is bold!</b>"; 
+  </script>
+</body>
+</html>
